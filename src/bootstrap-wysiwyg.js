@@ -328,6 +328,7 @@
 
      $.fn.wysiwyg = function( userOptions ) {
         var wysiwyg = new Wysiwyg( this, userOptions );
+        return this;
      };
 
 } )( window, window.jQuery );
